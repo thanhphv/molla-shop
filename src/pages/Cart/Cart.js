@@ -21,7 +21,7 @@ const Cart = (props) => {
             <ShoppingCartOutlined />
             <p>No products added to cart</p>
             <div>
-              <Link to="/">
+              <Link to="/product">
                 <button className="product-btn">RETURN TO SHOP</button>
               </Link>
             </div>

@@ -9,6 +9,10 @@
 
 /* button back to top */
 
+.ant-notification {
+  top: 60px !important;
+}
+
 .back-to-top {
   color: #999;
   font-size: 2.8rem !important;

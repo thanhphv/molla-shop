@@ -1,0 +1,258 @@
+.product-detail-wrapper {
+  display: flex;
+  margin: 20px 0;
+  border-top: 1px solid #ebebeb;
+}
+
+.product-img {
+  width: 40%;
+}
+
+.product-img img {
+  object-fit: cover;
+  object-position: center;
+  height: 100%;
+}
+
+.product-content {
+  width: 60%;
+}
+
+.product-content h3 {
+  font-size: 2.4rem;
+  color: #333333;
+  font-weight: 400;
+}
+
+.product-content p {
+  font-size: 2rem;
+  color: #ef837b;
+}
+
+.product-content span {
+  font-size: 1.4rem;
+  color: #777777;
+  word-spacing: 0.3px;
+}
+
+.product-quantity {
+  display: flex;
+  align-items: center;
+}
+
+.product-quantity h4 {
+  padding-right: 20px;
+  font-size: 1.6rem;
+  color: #777777;
+  font-weight: 400;
+}
+
+.product-quantity-button {
+  margin: 20px 0;
+  border: 1px solid #ccc;
+  width: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+}
+
+.product-quantity button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.product-content .product-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  color: var(--main-color);
+  border-color: var(--main-color);
+}
+
+.product-btn .fa-cart-arrow-down::before {
+  color: var(--main-color);
+}
+
+.product-btn:hover .fa-cart-arrow-down::before {
+  color: #fff;
+}
+
+.product-share {
+  border-top: 1px solid #ccc;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  color: #777777;
+  font-size: 1.6rem;
+  padding-top: 20px;
+}
+
+.product-share h4 {
+  font-weight: 400;
+  padding-right: 10px;
+}
+
+.product-share .fab {
+  display: block;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  text-align: center;
+  line-height: 30px;
+  margin: 0 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.product-share .fab:hover {
+  border-color: var(--main-color);
+}
+
+.product-info {
+  margin: 40px 0;
+}
+
+.product-info .nav-tab {
+  padding: 0;
+}
+
+.product-info .nav-tab li {
+  font-size: 1.6rem;
+  padding-bottom: 3px;
+}
+
+.product-info .nav-content {
+  border: 1px solid #ccc;
+  padding: 40px;
+}
+
+.product-info .nav-content h3 {
+  font-size: 1.6rem;
+  color: #333;
+  font-weight: 400;
+}
+
+.product-info .nav-content span {
+  font-size: 1.4rem;
+  color: #777777;
+  word-spacing: 3px;
+  font-weight: 400;
+}
+
+.product-info .nav-content p {
+  font-size: 1.2rem;
+  padding-left: 10px;
+  color: #333333;
+  display: flex;
+  align-items: center;
+}
+
+.fa-circle {
+  font-size: 0.4rem;
+  padding-right: 10px;
+}
+
+.review {
+  display: flex;
+  border-bottom: 1px solid #ebebeb;
+  padding: 20px 0;
+}
+
+.review:last-child {
+  border-bottom: none;
+}
+
+.review h4 {
+  font-size: 1.6rem;
+  color: #333333;
+  font-weight: 400;
+}
+
+.review-user {
+  width: 20%;
+}
+
+.review-action {
+  padding-top: 15px;
+  display: flex;
+}
+
+.review-action span {
+  padding-right: 20px;
+  font-size: 1.2rem !important;
+  cursor: pointer;
+}
+
+.review-action span:hover {
+  color: var(--main-color);
+}
+
+.product-suggest-wrapper h3 {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 400;
+}
+
+.product-suggest-wrapper .trendy-content {
+  text-align: center;
+}
+
+/* responsive */
+
+/*Ipad ngang(1024 x 768)*/
+@media screen and (max-width: 1024px) {
+  .product-img {
+    margin-right: 20px;
+  }
+
+  .product-content .product-btn {
+    font-size: 1.2rem;
+    padding: 5px 0;
+    width: 40%;
+  }
+
+  .review-user span {
+    font-size: 1rem !important;
+  }
+
+  .review-user {
+    margin-right: 20px;
+  }
+}
+/*Ipad dọc(768 x 1024)*/
+@media screen and (max-width: 768px) {
+  .product-info .nav-tab {
+    flex-wrap: wrap;
+  }
+  .product-info .nav-tab li {
+    font-size: 1.4rem;
+  }
+
+  .product-content .product-btn {
+    font-size: 1.2rem;
+    padding: 5px 0;
+    width: 50%;
+  }
+
+  .review-user h4 {
+    font-size: 1.4rem;
+  }
+
+  .review-wrapper h4 {
+    font-size: 1.4rem;
+  }
+
+  .review-content {
+    font-size: 1.2rem !important;
+  }
+}
+/*Tablet nhỏ(480 x 640)*/
+@media screen and (max-width: 480px) {
+}
+/*Iphone(480 x 640)*/
+@media screen and (max-width: 320px) {
+}

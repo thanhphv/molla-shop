@@ -1,0 +1,35 @@
+:root {
+  --main-color: #cc9966;
+}
+
+body {
+  margin: 0;
+  font-family: "Manrope", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  font-size: 62.5%;
+  line-height: 1.6rem;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px
+}
+
+ul {
+  margin: 0 !important;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}

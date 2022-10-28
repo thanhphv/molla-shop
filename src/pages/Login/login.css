@@ -1,0 +1,94 @@
+.login {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login a {
+  color: var(--main-color);
+}
+
+.login-header {
+  font-size: 2.4rem;
+  text-transform: uppercase;
+}
+
+.login .s-inner {
+  background-color: #5a5454;
+  margin-top: 0;
+  padding: 10px;
+}
+
+.login .login-header {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.login .login-form {
+  max-width: 400px;
+  margin-bottom: 30px;
+}
+
+.login .login-form-forgot {
+  float: right;
+}
+.login .ant-col-rtl .login-form-forgot {
+  float: left;
+}
+
+.login .login-form-button {
+  width: 100%;
+}
+
+.login .ant-form-item-with-help {
+  margin-bottom: 10px;
+}
+
+.login .ant-input-affix-wrapper {
+  padding: 10px 11px;
+}
+
+.login .login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login .ant-form-item-control-input-content {
+  width: 400px;
+}
+
+.login-text {
+  text-align: center;
+  padding-top: 20px;
+}
+
+/* responsive */
+
+/*Ipad ngang(1024 x 768)*/
+@media screen and (max-width: 1024px) {
+}
+/*Ipad dọc(768 x 1024)*/
+@media screen and (max-width: 768px) {
+}
+/*Tablet nhỏ(480 x 640)*/
+@media screen and (max-width: 480px) {
+  .login .login-form {
+    max-width: 300px;
+  }
+}
+/*Iphone(480 x 640)*/
+@media screen and (max-width: 320px) {
+  .login .login-form {
+    max-width: 200px;
+  }
+
+  .login .login-form-forgot {
+    width: 100%;
+  }
+
+  .login .ant-col-rtl .login-form-forgot {
+    width: 100%;
+  }
+}
